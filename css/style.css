@@ -1,0 +1,82 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+body{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color:  hsl(0, 0%, 98%);
+}
+.container{
+    width: 1040px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head{
+    flex:0 0 45%;
+    width: 45%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+header h2{
+    font-weight: 400;
+    color:hsl(229, 6%, 66%);
+}
+header h1{
+    font-weight: 600;
+    color:hsl(234, 12%, 34%);
+}
+header p{
+    font-weight: 200;
+    color:hsl(229, 6%, 66%);
+}
+.slide { 
+    flex:0 0 30%;
+    width: 30%;
+    margin:auto;
+}
+.card h4{
+    color:hsl(234, 12%, 34%);
+}
+.card p{
+    color:hsl(229, 6%, 66%);
+}
+.card img{
+    display: block;
+    margin-right: 10px;
+    margin-left: auto;
+}
+.card{
+    margin-bottom: 40px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.233);
+}
+.cd-1{    
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.cd-2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.cd-3{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.cd-4{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+@media only screen and (max-width:375px)
+{
+    .container{
+        width: 350px;
+    }
+    .head{
+        flex:0 0 100%;
+        width: 100%;
+    }
+    .slide { 
+        flex:0 0 90%;
+        width: 90%;
+    }
+}
